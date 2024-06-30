@@ -1,0 +1,56 @@
+body {
+    background-color: #87ceeb;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.road {
+    height: 100px;
+    width: 100%;
+    background-color: #2e2e2e;
+    position: relative;
+}
+
+@keyframes movecar {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 100%;
+    }
+}
+
+.car {
+    width: 100px;
+    height: 50px;
+    background-color: #ff6347;
+    border-radius: 10px;
+    position: absolute;
+    animation: movecar 8s linear infinite;
+    top: 25px;
+}
+
+.car::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+}
+
+.car::after {
+    right: 10px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+}

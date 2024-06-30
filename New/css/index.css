@@ -1,3 +1,150 @@
-h1 {
+/* elementry selector-selecting by name or tag */
+
+
+/* h1 {
     background-color: brown;
+} */
+
+
+/* id selector */
+
+
+/* one {
+    background-color: blueviolet;
+} */
+
+
+/* attribute selecotor */
+
+
+/* a[href='http://goggle.com'] {
+    background-color: chocolate;
+} */
+
+
+/* class selecotr */
+
+
+/* .two
+ {
+    background-color: bisque;
+} */
+
+
+/* a {
+    background-color: blueviolet;
+} */
+
+
+/* by starting letter  '^' */
+
+
+/* a[href^='http'] {
+    background-color: yellow;
+} */
+
+
+/* end letter '$' */
+
+
+/* a[href$='com'] {
+    background-color: chartreuse;
+} */
+
+
+/* any letter '*' */
+
+
+/* 
+a[href*='facebook'] {
+    background-color: crimson;
+} */
+
+
+/* *universal selector */
+
+
+/* * {
+    background-color: brown;
+} */
+
+
+/* disended combinator selector */
+
+
+/* div p {
+    background-color: crimson;
+} */
+
+
+/* span p {
+    background-color: magenta;
+} */
+
+
+/* ol>li {
+    border: 2px solid green;
+} */
+
+
+/* div {
+    background-color: darkblue;
+    height: 150px;
+    width: 150px;
+    transition: 3s;
+} */
+
+
+/* 
+div:hover {
+    background-color: saddlebrown;
+    background: linear-gradient(red, blue, green);
+    border-radius: 60%;
+} */
+
+
+/* li:first-child {
+    background-color: aqua;
+} */
+
+
+/* li:nth-of-type(2) {
+    background-color: brown;
+} */
+
+
+/* li:last-child {
+    background-color: blueviolet;
+} */
+
+
+/* #parent {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+} */
+
+
+/* #child {
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+} */
+
+
+/* #parent {
+    height: 100vh;
+    width: 100vw;
+    background-color: chocolate;
+} */
+
+
+/* #child {
+    height: 50vh;
+    width: 50vw;
+    background-color: chartreuse;
+} */
+
+li {
+    font-size: 2em;
 }

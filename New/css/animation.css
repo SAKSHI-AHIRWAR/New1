@@ -1,0 +1,59 @@
+                                                /* div {
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+        animation-name: new;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-delay: 3s;
+    } */
+                                                /* div:hover {
+    animation-name: new;
+    animation-duration: 4s;
+} */
+                                                /*     
+    @keyframes new {
+        0% {
+            background-color: brown;
+            border-radius: 50%;
+        }
+        25% {
+            background-color: chocolate;
+        }
+        50% {
+            background-color: crimson;
+            height: 1000px;
+            width: 1200px;
+        }
+        100% {
+            background-color: palevioletred;
+            height: 100vw;
+            width: 100vh;
+        }
+    } */
+                                                
+                                                body {
+                                                    background-color: chocolate;
+                                                }
+                                                
+                                                div {
+                                                    width: 100px;
+                                                    height: 100px;
+                                                    margin: auto;
+                                                    background: linear-gradient(red, blue);
+                                                    border-radius: 99999999%;
+                                                    border: 5px solid black;
+                                                    animation: 900ms ease-in 0s infinite alternate none running new;
+                                                }
+                                                
+                                                @keyframes new {
+                                                    0% {
+                                                        transform: translateY(0px);
+                                                    }
+                                                    100% {
+                                                        transform: translateY(85vh) rotate(360deg);
+                                                    }
+                                                }
+                                                
+                                                gjhhjgg {}
