@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Language Translator</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <div class="hero">
+        <h1>Voice Language
+            <span> Translator  </span></h1>
+        <textarea placeholder="Write anything here..." id="speechToText"></textarea>
+        <div class="row">
+            <select></select>
+            <button onclick="voice()"><img src="image.png">Listen</button>
+        </div>
+    </div>
+    <script>
+        function Voice() {
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang = "en-GB";
+            recognition.onresult = function(event) {
+                console.log(event);
+                document.getElementById("speechToText").value = event.results[0][0].transcript;
+            }
+            recognition.start()
+        }
+    </script>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,2500 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+/*logos use*/
+.nav {
+    background-color: rgb(245, 245, 245);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 25px;
+}
+
+.logos i {
+    position: relative;
+    left: -7px;
+    color: black;
+    font-size: 13px;
+}
+
+.logos a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+/*Nav-bar*/
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+}
+
+/*Image side*/
+.image {
+    background-image: url("engineering_updates_cover.jpeg");
+    background-size: cover;
+    /* height: 464px; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.image p {
+    color: black;
+    font-size: 2.2rem;
+    position: relative;
+    top: 300px;
+    left: 780px;
+}
+
+.image p:hover {
+    color: #1A4870;
+    transition-duration: 0.8s;
+    text-shadow: 2px 2px black;
+}
+
+/*Responsive website*/
+@media(min-width : 320px) {
+
+    /*Copyright*/
+    .grey1 {
+        background-color: #333;
+        height: 42px;
+        padding-top: 20px;
+        padding-left: 64px;
+        border-top: 2px solid rgb(109, 102, 102);
+        border-bottom: 2px solid rgb(255, 250, 250);
+    }
+
+    .logo007 {
+        background-image: url("logo.svg");
+        background-size: cover;
+        height: 50px;
+        display: flex;
+
+        width: 50px;
+    }
+
+    .frquent {
+        padding-left: 0px;
+        line-height: 12px;
+        color: white;
+        font-size: 0.4rem;
+    }
+
+    .bab {
+        height: 25px;
+        width: 100px;
+    }
+
+    .new {
+        font-size: 1.1rem;
+        padding-top: 16px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+}
+    .new1 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 12px;
+    }
+
+    .new2 {
+        font-size: 0.6rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 0.6rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new7 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 1.1rem;
+        padding-top: 130px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 1.1rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new11 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+
+    .image-details1 {
+        background-image: url(metrotics.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details11 {
+        background-image: url(electrical-engg.webp);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details6 {
+        background-image: url(Structural.jpeg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details9 {
+        background-image: url(System-Engineer.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details8 {
+        background-image: url(5615895_1621603880_genetic\ engineeringArtboard\ 1.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details7 {
+        background-image: url(robotics.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details5 {
+        background-image: url(software.webp);
+        background-size: cover;
+        height: 144px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details3 {
+        background-image: url(nuclear.jpeg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details4 {
+        background-image: url(Petroleum-Engineering.JPEG.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details2 {
+        background-image: url(Mining-Engineering.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details {
+        background-image: url(VIT_Blog-01.png);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details10 {
+        background-image: url(geology.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details12 {
+        background-image: url(Career-in-Textile-Engineering.webp);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details13 {
+        background-image: url(food-engineering.png);
+        background-size: contain;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details14 {
+        background-image: url(photonomics.png);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .engineering-item:hover .details {
+        display: block;
+        max-height: 370px;
+        opacity: 1;
+        color: black;
+
+    }
+
+    .engineering-item:hover {
+        background-color: #e0e0e0;
+        color: white;
+        height: 430px;
+        background-color: royalblue;
+        transform: scale(1.02); 
+
+}
+
+.engineering-item {
+    margin-bottom: 10px;
+    /* background-color: #f4f4f4; */
+    background-color: #e5eb;
+    height: 40px;
+    position: relative;
+    top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.6s ease, transform 0.6s ease;
+}
+
+.image {
+    height: 155px;
+}
+
+.image p {
+    font-size: 0.4rem;
+    position: relative;
+    top: 33px;
+    left: 182px;
+}
+
+.nav {
+    height: 20px;
+}
+
+.nav-bar {
+    height: 20px;
+}
+
+.paragraph {
+    height: 2900px;
+    width: 253px;
+}
+
+.fot-4 {
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.4rem;
+    text-align: center;
+    height: 56px;
+
+}
+
+.pages {
+    padding-top: 15px;
+}
+
+.copy {
+    padding-top: 5px;
+
+}
+
+button {
+    height: 29px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    border-radius: 5px;
+    font-size: 0.5rem;
+}
+
+.new15 {
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.new16 {
+    font-size: 0.5rem;
+    padding-top: 0px;
+    padding-left: 0px;
+    line-height: 10px;
+    color: rgb(54, 48, 48);
+}
+
+.new17 {
+    font-size: 0.5rem;
+    padding-top: 28px;
+    padding-left: 0px;
+    line-height: 10px;
+    color: rgb(54, 48, 48);
+}
+
+@media(min-width : 375px) {
+    .image {
+        height: 200px;
+    }
+
+    .image p {
+        font-size: 0.4rem;
+        position: relative;
+        top: 48px;
+        left: 234px;
+    }
+
+    .paragraph {
+        height: 2950px;
+        width: 303px;
+    }
+
+    .new {
+        font-size: 1.1rem;
+        padding-top: 16px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new1 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 12px;
+    }
+
+    .new2 {
+        font-size: 0.6rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 0.6rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new7 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 1.1rem;
+        padding-top: 130px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 1.1rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new11 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 0.6rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new15 {
+        font-size: 1.1rem;
+        padding-top: 15px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new16 {
+        font-size: 0.7rem;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new17 {
+        font-size: 0.7rem;
+        padding-top: 28px;
+        padding-left: 0px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .engineering-item:hover .details {
+        display: block;
+        max-height: 454px;
+        opacity: 1;
+        color: black;
+
+    }
+
+    .engineering-item:hover {
+        background-color: #e0e0e0;
+        color: white;
+        height: 520px;
+        background-color: royalblue;
+        transform: scale(1.02);
+    }
+
+    .image-details11 {
+        background-image: url(electrical-engg.webp);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details1 {
+        background-image: url(metrotics.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details6 {
+        background-image: url(Structural.jpeg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details9 {
+        background-image: url(System-Engineer.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details8 {
+        background-image: url(5615895_1621603880_genetic\ engineeringArtboard\ 1.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details7 {
+        background-image: url(robotics.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details5 {
+        background-image: url(software.webp);
+        background-size: cover;
+        height: 144px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details3 {
+        background-image: url(nuclear.jpeg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details4 {
+        background-image: url(Petroleum-Engineering.JPEG.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details2 {
+        background-image: url(Mining-Engineering.jpg);
+        background-size: cover;
+        height: 112px;
+        width: 217px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details {
+        background-image: url(VIT_Blog-01.png);
+        background-size: cover;
+        height: 131px;
+        width: 265px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details10 {
+        background-image: url(geology.jpg);
+        background-size: cover;
+        height: 131px;
+        width: 265px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details12 {
+        background-image: url(Career-in-Textile-Engineering.webp);
+        background-size: cover;
+        height: 131px;
+        width: 265px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details13 {
+        background-image: url(food-engineering.png);
+        background-size: contain;
+        height: 131px;
+        width: 265px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details14 {
+        background-image: url(photonomics.png);
+        background-size: cover;
+        height: 131px;
+        width: 265px;
+        position: relative;
+        top: 20px;
+    }
+
+    /*Copyright*/
+    .grey1 {
+        background-color: #333;
+        height: 55px;
+        padding-top: 40px;
+        padding-left: 95px;
+        border-top: 2px solid rgb(109, 102, 102);
+        border-bottom: 2px solid rgb(255, 250, 250);
+    }
+
+    .logo007 {
+        background-image: url("logo.svg");
+        background-size: cover;
+        height: 50px;
+        display: flex;
+
+        width: 50px;
+    }
+
+    .frquent {
+        padding-left: 0px;
+        line-height: 16px;
+        color: white;
+        font-size: 0.5rem;
+    }
+
+    .bab {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+@media(min-width : 425px) {
+    .image {
+        height: 200px;
+    }
+
+    .image p {
+        font-size: 0.5rem;
+        position: relative;
+        top: 59px;
+        left: 252px;
+    }
+
+    .paragraph {
+        height: 3100px;
+        width: 350px;
+    }
+
+    .new {
+        font-size: 1.1rem;
+        padding-top: 16px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new1 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 12px;
+    }
+
+    .new2 {
+        font-size: 0.7rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 0.7rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .fot-4 {
+        background-color: #0f1111;
+        color: white;
+        font-size: 0.5rem;
+        text-align: center;
+        height: 56px;
+
+    }
+
+    .pages {
+        padding-top: 15px;
+    }
+
+    .copy {
+        padding-top: 5px;
+
+    }
+
+    .new7 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 1.1rem;
+        padding-top: 130px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 1.1rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new11 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 0.7rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new15 {
+        font-size: 1.5rem;
+        padding-top: 9px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new16 {
+        font-size: 0.8rem;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 14px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new17 {
+        font-size: 0.8rem;
+        padding-top: 30px;
+        padding-left: 0px;
+        line-height: 14px;
+        color: rgb(54, 48, 48);
+    }
+
+    .engineering-item:hover .details {
+        display: block;
+        max-height: 520px;
+        opacity: 1;
+        color: black;
+
+    }
+
+    .engineering-item:hover {
+        background-color: #e0e0e0;
+        color: white;
+        height: 600px;
+        background-color: royalblue;
+        transform: scale(1.02);
+    }
+
+    .image-details1 {
+        background-image: url(metrotics.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details6 {
+        background-image: url(Structural.jpeg);
+        background-size: cover;
+        height: 148px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details11 {
+        background-image: url(electrical-engg.webp);
+        background-size: cover;
+        height: 148px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details9 {
+        background-image: url(System-Engineer.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details8 {
+        background-image: url(5615895_1621603880_genetic\ engineeringArtboard\ 1.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details7 {
+        background-image: url(robotics.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details5 {
+        background-image: url(software.webp);
+        background-size: contain;
+        height: 175px;
+        width: 286px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details3 {
+        background-image: url(nuclear.jpeg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details4 {
+        background-image: url(Petroleum-Engineering.JPEG.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details2 {
+        background-image: url(Mining-Engineering.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details {
+        background-image: url(VIT_Blog-01.png);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details10 {
+        background-image: url(geology.jpg);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details12 {
+        background-image: url(Career-in-Textile-Engineering.webp);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details13 {
+        background-image: url(food-engineering.png);
+        background-size: contain;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details14 {
+        background-image: url(photonomics.png);
+        background-size: cover;
+        height: 155px;
+        width: 310px;
+        position: relative;
+        top: 20px;
+    }
+
+    /*Copyright*/
+    .grey1 {
+        background-color: #333;
+        height: 55px;
+        padding-top: 50px;
+        padding-left: 80px;
+        border-top: 2px solid rgb(109, 102, 102);
+        border-bottom: 2px solid rgb(255, 250, 250);
+    }
+
+    .logo007 {
+        background-image: url("logo.svg");
+        background-size: cover;
+        height: 50px;
+        display: flex;
+
+        width: 50px;
+    }
+
+    .frquent {
+        padding-left: 0px;
+        line-height: 20px;
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .bab {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+@media(min-width : 768px) {
+    .new15 {
+        font-size: 2rem;
+        padding-top: 4px;
+        padding-left: 20px;
+        font-weight: 700;
+    }
+
+    .new16 {
+        font-size: 1.2rem;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new17 {
+        font-size: 1.2rem;
+        padding-top: 30px;
+        padding-left: 0px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .engineering-item:hover .details {
+        display: block;
+        max-height: 750px;
+        opacity: 1;
+        color: black;
+
+    }
+
+    .engineering-item:hover {
+        background-color: #e0e0e0;
+        color: white;
+        height: 821px;
+        background-color: royalblue;
+        transform: scale(1.02);
+    }
+
+    .image-details1 {
+        background-image: url(metrotics.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details11 {
+        background-image: url(electrical-engg.webp);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details6 {
+        background-image: url(Structural.jpeg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details9 {
+        background-image: url(System-Engineer.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details8 {
+        background-image: url(5615895_1621603880_genetic\ engineeringArtboard\ 1.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details7 {
+        background-image: url(robotics.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details5 {
+        background-image: url(software.webp);
+        background-size: cover;
+        height: 353px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details3 {
+        background-image: url(nuclear.jpeg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details4 {
+        background-image: url(Petroleum-Engineering.JPEG.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details2 {
+        background-image: url(Mining-Engineering.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details {
+        background-image: url(VIT_Blog-01.png);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details10 {
+        background-image: url(geology.jpg);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details12 {
+        background-image: url(Career-in-Textile-Engineering.webp);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details13 {
+        background-image: url(food-engineering.png);
+        background-size: contain;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details14 {
+        background-image: url(photonomics.png);
+        background-size: cover;
+        height: 282px;
+        width: 560px;
+        position: relative;
+        top: 20px;
+    }
+
+    .new {
+        font-size: 1.7rem;
+        padding-top: 16px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new1 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 20px;
+    }
+
+    .new2 {
+        font-size: 0.9rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new7 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 12px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 1.7rem;
+        padding-top: 130px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 1.7rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new11 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 0.9rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 20px;
+        color: rgb(54, 48, 48);
+    }
+
+    .image {
+        height: 250px;
+    }
+
+    .image p {
+        font-size: 1.1rem;
+        position: relative;
+        top: 159px;
+        left: 366px;
+    }
+
+    .paragraph {
+        height: 3900px;
+        width: 600px;
+    }
+
+    /*Copyright*/
+    .grey1 {
+        background-color: #333;
+        height: 70px;
+        padding-top: 50px;
+        padding-left: 130px;
+        border-top: 2px solid rgb(109, 102, 102);
+        border-bottom: 2px solid rgb(255, 250, 250);
+    }
+
+    .logo007 {
+        background-image: url("logo.svg");
+        background-size: cover;
+        height: 50px;
+        display: flex;
+
+        width: 50px;
+    }
+
+    .frquent {
+        padding-left: 60px;
+        line-height: 25px;
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .bab {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+@media(min-width : 1024px) {
+    .new {
+        font-size: 2rem;
+        padding-top: 16px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new1 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 23px;
+    }
+
+    .new2 {
+        font-size: 1.1rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 1.1rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new7 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 2rem;
+        padding-top: 130px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 2rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .fot-4 {
+        background-color: #0f1111;
+        color: white;
+        font-size: 0.8rem;
+        text-align: center;
+        height: 56px;
+
+    }
+
+    .pages {
+        padding-top: 15px;
+    }
+
+    .copy {
+        padding-top: 5px;
+
+    }
+
+    .new11 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 1.1rem;
+        padding-top: 6px;
+        padding-left: 10px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .image {
+        height: 310px;
+    }
+
+    .image p {
+        font-size: 1.5rem;
+        position: relative;
+        top: 214px;
+        left: 512px;
+    }
+
+    .paragraph {
+        height: 4800px;
+        width: 900px;
+    }
+
+    .new15 {
+        font-size: 2.5rem;
+        padding-top: 0px;
+        padding-left: 24px;
+        font-weight: 700;
+    }
+
+    .new16 {
+        font-size: 1.2rem;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new17 {
+        font-size: 1.2rem;
+        padding-top: 30px;
+        padding-left: 0px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .engineering-item:hover .details {
+        display: block;
+        max-height: 950px;
+        opacity: 1;
+        color: black;
+
+    }
+
+    .engineering-item:hover {
+        background-color: #e0e0e0;
+        color: white;
+        height: 900px;
+        background-color: royalblue;
+        transform: scale(1.02);
+    }
+
+    .image-details1 {
+        background-image: url(metrotics.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details11 {
+        background-image: url(electrical-engg.webp);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details6 {
+        background-image: url(Structural.jpeg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details9 {
+        background-image: url(System-Engineer.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details8 {
+        background-image: url(5615895_1621603880_genetic\ engineeringArtboard\ 1.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details7 {
+        background-image: url(robotics.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details5 {
+        background-image: url(software.webp);
+        background-size: contain;
+        height: 430px;
+        width: 705px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details3 {
+        background-image: url(nuclear.jpeg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details4 {
+        background-image: url(Petroleum-Engineering.JPEG.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details2 {
+        background-image: url(Mining-Engineering.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details {
+        background-image: url(VIT_Blog-01.png);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details10 {
+        background-image: url(geology.jpg);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details12 {
+        background-image: url(Career-in-Textile-Engineering.webp);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details13 {
+        background-image: url(food-engineering.png);
+        background-size: contain;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details14 {
+        background-image: url(photonomics.png);
+        background-size: cover;
+        height: 430px;
+        width: 855px;
+        position: relative;
+        top: 20px;
+    }
+
+    /*Copyright*/
+    .grey1 {
+        background-color: #333;
+        height: 100px;
+        padding-top: 50px;
+        padding-left: 130px;
+        border-top: 2px solid rgb(109, 102, 102);
+        border-bottom: 2px solid rgb(255, 250, 250);
+    }
+
+    .logo007 {
+        background-image: url("logo.svg");
+        background-size: cover;
+        height: 50px;
+        display: flex;
+
+        width: 50px;
+    }
+
+    .frquent {
+        padding-left: 155px;
+        line-height: 35px;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .bab {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+@media(min-width : 1440px) {
+
+    .new15 {
+        font-size: 2.5rem;
+        padding-top: 0px;
+        padding-left: 24px;
+        font-weight: 700;
+    }
+
+    .new16 {
+        font-size: 1.2rem;
+        padding-top: 0px;
+        padding-left: 0px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new17 {
+        font-size: 1.2rem;
+        padding-top: 30px;
+        padding-left: 0px;
+        line-height: 23px;
+        color: rgb(54, 48, 48);
+    }
+
+    .engineering-item:hover .details {
+        display: block;
+        max-height: 950px;
+        opacity: 1;
+        color: black;
+
+    }
+
+    .engineering-item:hover {
+        background-color: #e0e0e0;
+        color: white;
+        height: 900px;
+        background-color: royalblue;
+        transform: scale(1.02);
+    }
+
+    .image-details1 {
+        background-image: url(metrotics.jpg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details11 {
+        background-image: url(electrical-engg.webp);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details6 {
+        background-image: url(Structural.jpeg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details12 {
+        background-image: url(Career-in-Textile-Engineering.webp);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details13 {
+        background-image: url(food-engineering.png);
+        background-size: contain;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details14 {
+        background-image: url(photonomics.png);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details9 {
+        background-image: url(System-Engineer.jpg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details8 {
+        background-image: url(5615895_1621603880_genetic\ engineeringArtboard\ 1.jpg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details7 {
+        background-image: url(robotics.jpg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details5 {
+        background-image: url(software.webp);
+        background-size: contain;
+        height: 564px;
+        width: 925px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details3 {
+        background-image: url(nuclear.jpeg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details4 {
+        background-image: url(Petroleum-Engineering.JPEG.jpg);
+        background-size: cover;
+        height: 552px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details2 {
+        background-image: url(Mining-Engineering.jpg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details10 {
+        background-image: url(geology.jpg);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image-details {
+        background-image: url(VIT_Blog-01.png);
+        background-size: cover;
+        height: 511px;
+        width: 1155px;
+        position: relative;
+        top: 20px;
+    }
+
+    .image {
+        height: 433px;
+    }
+
+    .image p {
+        font-size: 1.8rem;
+        position: relative;
+        top: 300px;
+        left: 634px;
+    }
+
+    .paragraph {
+        height: 5900px;
+        width: 1200px;
+    }
+
+    .new {
+        font-size: 2.7rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new1 {
+        font-size: 1.5rem;
+        padding-top: 30px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 35px;
+    }
+
+    .new2 {
+        font-size: 1.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 1.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new7 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 2.7rem;
+        padding-top: 150px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 2.7rem;
+        padding-top: 70px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new11 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 1.5rem;
+        padding-top: 35px;
+        padding-left: 10px;
+        line-height: 35px;
+        color: rgb(54, 48, 48);
+    }
+
+    /*Copyright*/
+    .grey1 {
+        background-color: #333;
+        height: 100px;
+        padding-top: 50px;
+        padding-left: 130px;
+        border-top: 2px solid rgb(109, 102, 102);
+        border-bottom: 2px solid rgb(255, 250, 250);
+    }
+
+    .logo007 {
+        background-image: url("logo.svg");
+        background-size: cover;
+        height: 50px;
+        display: flex;
+
+        width: 50px;
+    }
+
+    .frquent {
+        padding-left: 155px;
+        line-height: 35px;
+        color: white;
+        font-size: 1rem;
+    }
+
+    .bab {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+@media(min-width : 2560px) {
+    .new {
+        font-size: 4.7rem;
+        padding-top: 50px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new1 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        font-weight: 600;
+        color: #002d5e;
+        line-height: 60px;
+    }
+
+    .new2 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new3 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new4 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new5 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new6 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new7 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new8 {
+        font-size: 4.7rem;
+        padding-top: 150px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .new9 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new10 {
+        font-size: 4.7rem;
+        padding: 100px;
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+
+    .new11 {
+        font-size: 2.5rem;
+        padding-top: 0px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new12 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new13 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .new14 {
+        font-size: 2.5rem;
+        padding-top: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        color: rgb(54, 48, 48);
+    }
+
+    .image {
+        height: 768px;
+    }
+
+    .nav-bar {
+        height: 80px;
+    }
+
+    .image p {
+        font-size: 2.9rem;
+        position: relative;
+        top: 520px;
+        left: 1137px;
+
+    }
+
+    .paragraph {
+        height: 4800px;
+        width: 1900px;
+    }
+}
+
+/*paragraph*/
+.enginer_What {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    background-color: rgb(245, 245, 245);
+    /* height: 3000px; */
+}
+
+.new1::first-letter {
+    font-size: 1.8rem;
+    color: rgb(31, 31, 112);
+}
+
+/*video*/
+.video1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-eng {
+    position: relative;
+    top: 30px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.video-eng>iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*video-2*/
+.video2 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video-eng2 {
+    position: relative;
+    top: 30px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.video-eng2>iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*image area*/
+.img1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image34 {
+    position: relative;
+    top: 30px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.image34>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*image of engineer*/
+.img2 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image344 {
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.image344>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*image of Types of Engineer*/
+.img3 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image3434 {
+    position: relative;
+    top: 30px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.image3434>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*hover of enginer info*/
+.engineering-item {
+    margin-bottom: 10px;
+    /* background-color: #f4f4f4; */
+    background-color: #e5eb;
+    height: 40px;
+    position: relative;
+    top: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.6s ease, transform 0.6s ease;
+}
+
+.details {
+    display: none;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    /* background-color: #e0e0e0; */
+    background-color: #f3f6ff;
+    height: 800px;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    /* Smooth transition for expand/collapse */
+}

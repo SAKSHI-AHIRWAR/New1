@@ -33,27 +33,26 @@
         }
     } */
                                                 
-                                                body {
-                                                    background-color: chocolate;
-                                                }
+   body {
+        background-color: choco  }
                                                 
-                                                div {
-                                                    width: 100px;
-                                                    height: 100px;
-                                                    margin: auto;
-                                                    background: linear-gradient(red, blue);
-                                                    border-radius: 99999999%;
-                                                    border: 5px solid black;
-                                                    animation: 900ms ease-in 0s infinite alternate none running new;
-                                                }
+  div {
+  width: 100px;
+ height: 100px;
+ margin: auto;
+  background: linear-gradient(red, blue);
+  border-radius: 99999999%;
+border: 5px solid black;
+ animation: 900ms ease-in 0s infinite alternate none running new;
+}
+ @keyframes new {
+  0% {
+transform: translateY(0px);
+   }
+100% 
+{
+transform: translateY(85vh) rotate(360deg)
+ }
+}
                                                 
-                                                @keyframes new {
-                                                    0% {
-                                                        transform: translateY(0px);
-                                                    }
-                                                    100% {
-                                                        transform: translateY(85vh) rotate(360deg);
-                                                    }
-                                                }
-                                                
-                                                gjhhjgg {}
+gjhhjgg {}
